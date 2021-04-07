@@ -12,14 +12,14 @@ import java.time.Duration;
 import java.util.Collections;
 import java.util.Properties;
 
-public class ConsumerDemo {
+public class ConsumerDemoGroups {
     static final String SERVER = "127.0.0.1:9092";
     static final String GROUP_ID = "my-fifth-application";
     static final String OFFSET_RESET = "earliest";
 
     public static void main(String[] args) {
 
-        Logger logger = LoggerFactory.getLogger(ConsumerDemo.class);
+        Logger logger = LoggerFactory.getLogger(ConsumerDemoGroups.class);
 
         // create consumer configs
         Properties properties = new Properties();
